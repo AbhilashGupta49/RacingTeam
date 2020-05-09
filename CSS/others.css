@@ -1,0 +1,346 @@
+/*    ABHILASH GUPTA     */
+
+
+body {
+margin: 0;
+padding: 0;
+}
+
+.topofbody {
+position: relative;
+width: 100%;
+height: 100px;
+background-color: #000000;
+color: #FFFFFF;
+}
+
+.topofbodyp {
+letter-spacing: 2px;
+margin-top: 0;
+text-align: center;
+line-height: 150px;
+font-size: 40px;
+font-family: 'Play', sans-serif;
+}
+
+
+/*    Team Page CSS   */
+
+
+.teambody {
+margin-top: 80px;
+width: 100%;
+}
+
+#teamimg1 {
+background-image: url("../Images/sr1.jpg");
+}
+
+#teamimg2 {
+background-image: url("../Images/sr2.jpg");
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.teamimgdiv {
+background-position: center top;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+z-index: 5;
+position: relative;
+height: 400px;
+width: 60%;
+margin-left: 20%;
+}
+
+.boxshadow {
+-webkit-box-shadow: 0px 0px 0px 5px rgba(51,51,51,1);
+-moz-box-shadow: 0px 0px 0px 5px rgba(51,51,51,1);
+box-shadow: 0px 0px 0px 5px rgba(51,51,51,1);
+}
+
+.teamdivpoverlay {
+position: absolute;
+width: 100%;
+background-color: rgba(0,0,0,0.6);
+height: 40px;
+}
+
+.teamdivp {
+margin-top: 0;
+text-align: center;
+font-size: 35px;
+font-family: 'Play', sans-serif;
+color: #FFFFFF;
+}
+
+
+/*    Sponsor Page CSS     */
+
+.sponsorsbody {
+width: 100%;
+height: 100%;
+}
+
+.sponsorsblock {
+-moz-box-sizing: border-box; 
+box-sizing: border-box;
+border: 3px dashed #7E7E7E;
+margin-top: 80px;
+width: 100%;
+height: 200px;
+}
+
+.sponsorsdiv {
+-moz-box-sizing: border-box; 
+box-sizing: border-box;
+border: 2px solid #4E4E4E;
+display: inline-block;
+margin-top: 25px;
+width: 30%;
+height: 150px;
+background-position: center top;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+z-index: 5;
+position: relative;
+}
+
+.sponsorsdivleft {
+float: left;
+margin-left: 15%;
+}
+
+.sponsorsdivright {
+float: right;
+margin-right: 15%;
+}
+
+#sponsorsdiv1 {
+background-image: url("../Images/sp1.jpg");
+}
+
+#sponsorsdiv2 {
+background-image: url("../Images/sp2.jpg");
+}
+
+#sponsorsdiv3 {
+background-image: url("../Images/sp3.jpg");
+}
+
+#sponsorsdiv4 {
+background-image: url("../Images/sp4.jpg");
+}
+
+#sponsorsdiv5 {
+background-image: url("../Images/sp5.jpg");
+}
+
+#sponsorsdiv6 {
+background-image: url("../Images/sp6.jpg");
+}
+
+#sponsorsdiv7 {
+background-image: url("../Images/sp7.jpg");
+}
+
+#sponsorsdiv8 {
+background-image: url("../Images/sp8.jpg");
+}
+
+.sponsorimgrow {
+position: absolute;
+width: 100%;
+background-color: #D0221B;
+color: #FFFFFF;
+height: 5px;
+margin-top: 100px;
+}
+
+/*    Activities Page    */
+
+.activitiesp {
+font-family: 'Play', sans-serif;
+width: 100%;
+text-align: center;
+font-size: 40px;
+margin-top: 80px;
+}
+
+
+/*    About Us Page   */
+
+
+.aboutusdiv {
+display: inline-block;
+margin-top: 30px;
+-webkit-box-shadow: 0px 0px 3px 2px rgba(51,51,51,1);
+-moz-box-shadow: 0px 0px 3px 2px rgba(51,51,51,1);
+box-shadow: 0px 0px 3px 2px rgba(51,51,51,1);
+text-align: justify;
+-moz-box-sizing: border-box; 
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+width: 60%;
+margin-left: 5%;
+padding: 15px;
+}
+
+.aboutusdivheading {
+font-size: 26px;
+font-family: 'Montserrat', sans-serif;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+.aboutusrow {
+height: 3px;
+color: #000000;
+background-color: #1E1E1E;
+width: 60%;
+margin-left: 0;
+}
+
+.contactusdiv {
+display: inline-block;
+margin-top: 30px;
+padding: 10px;
+-webkit-box-shadow: 0px 0px 3px 2px rgba(51,51,51,1);
+-moz-box-shadow: 0px 0px 3px 2px rgba(51,51,51,1);
+box-shadow: 0px 0px 3px 2px rgba(51,51,51,1);
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+-moz-box-sizing: border-box; 
+box-sizing: border-box;
+width: 30%;
+margin-left: 2.5%;
+}
+
+.gallerydivheading {
+font-size: 40px;
+text-align: center;
+font-family: 'Play', sans-serif;
+margin-bottom: 0px;
+}
+
+.galleryrow {
+width: 80%;
+margin-left: 10%;
+background-color: #D0221B;
+color: #FFFFFF;
+height: 5px;
+}
+
+.galleryblockdiv {
+-moz-box-sizing: border-box; 
+box-sizing: border-box;
+margin-top: 40px;
+width: 100%;
+height: 225px;
+}
+
+.gallerysubdiv {
+-moz-box-sizing: border-box; 
+box-sizing: border-box;
+border: 2px dashed #7E7E7E;
+display: inline-block;
+margin-top: 25px;
+width: 25%;
+margin-left: 6.3333%;
+height: 200px;
+background-position: center top;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+z-index: 5;
+position: relative;
+}
+
+#galleryimg1 {
+background-image: url("../Images/gallery1.jpg");
+}
+
+#galleryimg2 {
+background-image: url("../Images/gallery2.jpg");
+}
+
+#galleryimg3 {
+background-image: url("../Images/gallery3.jpg");
+}
+
+#galleryimg4 {
+background-image: url("../Images/gallery4.jpg");
+}
+
+#galleryimg5 {
+background-image: url("../Images/gallery5.jpg");
+}
+
+#galleryimg6 {
+background-image: url("../Images/gallery6.jpg");
+}
+
+
+/*    Media Queries     */
+
+
+@media screen and (max-width: 950px){
+.aboutusdiv {
+width: 80%;
+margin-left: 10%;
+padding: 15px;
+}
+
+.contactusdiv {
+width: 50%;
+margin-left: 25%;
+}
+}
+
+@media screen and (max-width: 700px){
+.aboutusdiv {
+font-size: 15px;
+}
+
+.aboutusdivheading {
+font-size: 20px;
+}
+
+.contactusdiv {
+font-size: 15px;
+}
+}
+
+@media screen and (max-width: 550px){
+.teamimgdiv {
+width: 80%;
+margin-left: 10%;
+height: 300px;
+}
+
+.sponsorsdiv {
+width: 40%;
+}
+
+.sponsorsdivleft {
+margin-left: 5%;
+}
+
+.sponsorsdivright {
+margin-right: 5%;
+}
+
+.sponsorsdivind {
+margin-left: 30%;
+}
+
+.activitiesp {
+font-size: 36px;
+}
+
+.contactusdiv {
+font-size: 15px;
+width: 80%;
+margin-left: 10%;
+}
+}
